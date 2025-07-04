@@ -128,7 +128,7 @@ The steps followed in this project are:
 
 ## Directory structure
 The main work notebook is the one labeled `main.ipynb` (Spanish version) or `main_english.ipynb` (English version).
-The Presentacion Proyecto machine Learning.pdf file is the document in which I present the development and results of the project in a less technical manner.
+The Presentacion Proyecto Machine Learning.pdf file is the document in which I present the development and results of the project in a less technical manner.
 The other notebooks, located in the folder of the same name, are the tests I performed until reaching the project's conclusions.
 The reading or viewing order for the different notebooks would be as follows:
 - `Dataset_celulas_cancerigenas.ipynb`
