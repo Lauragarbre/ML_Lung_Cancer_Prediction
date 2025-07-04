@@ -31,13 +31,13 @@ A continuación se expone la información de dichas columnas:
 
 ## Desarrollo del proyecto
 Los pasos seguidos en este proyecto son:
-- Importar libreías a utilizar (Python, Pandas, Sklearn, Scipy, Matplotlib, Seaborn, Lightgbm, Catboost, Pickle,...)
+- Importar librerías a utilizar (Python, Pandas, Sklearn, Scipy, Matplotlib, Seaborn, Lightgbm, Catboost, Pickle,...)
 - Cargar el Dataset.
 - Exploración y primera limpieza.
 - Train/ Test Split.
 - MiniEDA.
 - Selección de Features (selección visual, estadística, mutual information, RFE, SFS,...)
-- Baseline de modelos y Validadción cruzada ( Random Forest Classifier, Deccision Tree Classifier, LGBM Classifier, Catboost Classifier, Logistic Regressor,...)
+- Baseline de modelos y Validación cruzada ( Random Forest Classifier, Deccision Tree Classifier, LGBM Classifier, Catboost Classifier, Logistic Regressor,...)
 - Optimización de Hiperparámetros.
 - Evaluación contra test.
 - Primeras Conclusiones.
@@ -46,18 +46,18 @@ Los pasos seguidos en este proyecto son:
 - Conclusiones Personales.
 
 ## Estructura de los directorios
-El notebook principal del trabajo es el que pone main.ipynb (versión en español) o main_english.ipynb (versión en inglés).
-El archivo presentación.pdf es el documento en el que expongo el desarrollo y resultado del proyecto de una manera menos técnica.
-el resto de notebooks, ubicados en la carpeta con el mismo nombre,son las pruebas que he realizado hasta llegar a las conclusiones del proyecto.
+El notebook principal del trabajo es el que pone `main.ipynb` (versión en español) o `main_english.ipynb` (versión en inglés).
+El archivo Presentación Proyecto Machine Learning.pdf es el documento en el que expongo el desarrollo y resultado del proyecto de una manera menos técnica.
+El resto de notebooks, ubicados en la carpeta con el mismo nombre,son las pruebas que he realizado hasta llegar a las conclusiones del proyecto.
 El orden de lectura o visualización de los diferentes notebooks sería el siguiente:
-- Dataset_celulas_cancerigenas.ipynb
-- Dataset_celulas_cancerigenas_accuracy_1.ipynb
-- Dataset_celulas_cancerigenas_accuracy_menor_1.ipynb
-- Dataset_celulas_cancerigenas_accuracy_menor_1_PCA.ipynb
-- Dataset_celulas_cancerigenas_accuracy_menor_1_features.ipynb
-- Dataset_celulas_cancerigenas_target_ordinal.ipynb (prueba para ver si los resultados eran similares categorizando ordinalmente la target)
-- Dataset_celulas_cancerigenas_clustering.ipynb (prueba de realización de clustering, sin resultados satisfactorios)
-- Dataset_celulas_cancerigenas_accuracy_main.ipynb (previo al main)
+- `Dataset_celulas_cancerigenas.ipynb`
+- `Dataset_celulas_cancerigenas_accuracy_1.ipynb`
+- `Dataset_celulas_cancerigenas_accuracy_menor_1.ipynb`
+- `Dataset_celulas_cancerigenas_accuracy_menor_1_PCA.ipynb`
+- `Dataset_celulas_cancerigenas_accuracy_menor_1_features.ipynb`
+- `Dataset_celulas_cancerigenas_target_ordinal.ipynb` (prueba para ver si los resultados eran similares categorizando ordinalmente la target)
+- `Dataset_celulas_cancerigenas_clustering.ipynb` (prueba de realización de clustering, sin resultados satisfactorios)
+- `Dataset_celulas_cancerigenas_accuracy_main.ipynb` (previo al main)
 
 En la carpeta img están las imágenes utilizadas en la presentación del proyecto.
 Carpeta models están guardados los modelos escogidos como mejores (tanto en versión español como inglés).
@@ -127,18 +127,18 @@ The steps followed in this project are:
 - Personal conclusions.
 
 ## Directory structure
-The main work notebook is the one labeled main.ipynb (Spanish version) or main_english.ipynb (English version).
-The presentation.pdf file is the document in which I present the development and results of the project in a less technical manner.
+The main work notebook is the one labeled `main.ipynb` (Spanish version) or `main_english.ipynb` (English version).
+The Presentacion Proyecto machine Learning.pdf file is the document in which I present the development and results of the project in a less technical manner.
 The other notebooks, located in the folder of the same name, are the tests I performed until reaching the project's conclusions.
 The reading or viewing order for the different notebooks would be as follows:
-- Dataset_celulas_cancerigenas.ipynb
-- Dataset_celulas_cancerigenas_accuracy_1.ipynb
-- Dataset_celulas_cancerigenas_accuracy_menor_1.ipynb
-- Dataset_celulas_cancerigenas_accuracy_menor_1_PCA.ipynb
-- Dataset_celulas_cancerigenas_accuracy_menor_1_features.ipynb
-- Dataset_celulas_cancerigenas_target_ordinal.ipynb (test to see if the results were similar by ordinally categorizing the target)
-- Dataset_celulas_cancerigenas_clustering.ipynb (clustering test, without satisfactory results)
-- Dataset_celulas_cancerigenas_accuracy_main.ipynb (prior to main)
+- `Dataset_celulas_cancerigenas.ipynb`
+- `Dataset_celulas_cancerigenas_accuracy_1.ipynb`
+- `Dataset_celulas_cancerigenas_accuracy_menor_1.ipynb`
+- `Dataset_celulas_cancerigenas_accuracy_menor_1_PCA.ipynb`
+- `Dataset_celulas_cancerigenas_accuracy_menor_1_features.ipynb`
+- `Dataset_celulas_cancerigenas_target_ordinal.ipynb` (test to see if the results were similar by ordinally categorizing the target)
+- `Dataset_celulas_cancerigenas_clustering.ipynb` (clustering test, without satisfactory results)
+- `Dataset_celulas_cancerigenas_accuracy_main.ipynb` (prior to main)
 
 The img folder contains the images used in the project presentation.
 The models folder contains the best models (both in Spanish and English).
